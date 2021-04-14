@@ -1,0 +1,36 @@
+```{r}
+X = c(1,2,3,4,5,6,7)
+X
+X[1]
+X[1] = 13
+X[1]
+```
+
+```{r}
+VADeaths
+colnames(VADeaths)
+rownames(VADeaths)
+VADeaths[,1]
+VADeaths[1,]
+VADeaths[1:3,]
+```
+
+```{r}
+longley
+longley[, 1:3]
+longley$GNP
+```
+
+```{r}
+ability.cov
+ability.cov$cov
+class(ability.cov$cov)
+class(ability.cov$center)
+class(ability.cov$n.obs)
+ability.cov$cov[,1:3]
+```
+
+```{r}
+state.region
+```
+

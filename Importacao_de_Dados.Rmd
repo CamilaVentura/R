@@ -1,0 +1,14 @@
+```{r}
+install.packages("xlsx")
+library(xlsx)
+```
+
+```{r}
+X = read.csv(file.choose(), header = TRUE, sep = ",")
+X
+```
+
+```{r}
+dados = read.xlsx(file.choose(), sheetIndex = 1)
+dados
+```

@@ -1,0 +1,29 @@
+```{r}
+delta = 5
+class(delta)
+```
+
+```{r}
+delta = 3L
+class(delta)
+```
+
+```{r}
+x = 7
+y= 13
+(x+y) * x
+z = (x+y)*y
+z
+```
+
+```{r}
+a = 12
+b = 6
+a < b
+a == b
+```
+
+```{r}
+sqrt(9)
+```
+

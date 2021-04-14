@@ -1,0 +1,20 @@
+```{r}
+esoph
+head(esoph)
+tail(esoph)
+head(esoph, n=12)
+```
+
+```{r}
+dim(esoph)
+length(esoph)
+colnames(esoph)
+rownames(esoph)
+summary(esoph)
+```
+
+```{r}
+X = file.choose()
+X
+```
+

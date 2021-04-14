@@ -1,0 +1,39 @@
+```{r}
+x = 20
+y = 30
+if (x < y)
+{
+  print("Verdadeiro")
+}else
+{
+  print("Falso")
+}
+```
+
+```{r}
+X = ifelse(x < 60, "X é menor", "X não é menor")
+X
+```
+
+```{r}
+for (i in 1:5) {
+  print(i)
+}
+```
+
+```{r}
+a = 1
+while(a <= 12)
+{
+  print(a)
+  a = a + 1
+}
+```
+
+```{r}
+parouimpar <- function(x) {
+  return(ifelse(x%%2==0, "Par", "Ímpar"))
+}
+parouimpar(7)
+parouimpar(16)
+```
